@@ -5,4 +5,5 @@ if __name__ == '__main__':
     from sys import argv
     app = QApplication(argv)
     Top = Top()
+    app.setQuitOnLastWindowClosed(False)
     app.exec()
